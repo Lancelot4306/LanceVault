@@ -35,7 +35,6 @@ export const createFundingSource = async (
       })
       .then((res) => res.headers.get("location"));
   } catch (err) {
-    console.error("Creating a Funding Source Failed: ", err);
   }
 };
 
@@ -47,7 +46,6 @@ export const createOnDemandAuthorization = async () => {
     const authLink = onDemandAuthorization.body._links;
     return authLink;
   } catch (err) {
-    console.error("Creating an On Demand Authorization Failed: ", err);
   }
 };
 
@@ -59,7 +57,6 @@ export const createDwollaCustomer = async (
       .post("customers", newCustomer)
       .then((res) => res.headers.get("location"));
   } catch (err) {
-    console.error("Creating a Dwolla Customer Failed: ", err);
   }
 };
 
@@ -87,7 +84,6 @@ export const createTransfer = async ({
       .post("transfers", requestBody)
       .then((res) => res.headers.get("location"));
   } catch (err) {
-    console.error("Transfer fund failed: ", err);
   }
 };
 
@@ -109,6 +105,5 @@ export const addFundingSource = async ({
     };
     return await createFundingSource(fundingSourceOptions);
   } catch (err) {
-    console.error("Transfer fund failed: ", err);
   }
 };
