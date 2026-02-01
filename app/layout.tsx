@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "LanceVault",
   description: "LanceVault is a secure banking vault for everyone.",
   icons: {
-    icon: '/icons/logo.svg'
+    icon: '/icons/logo.png'
   }
 };
 

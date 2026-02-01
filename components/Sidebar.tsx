@@ -18,7 +18,7 @@ const Sidebar = ({ user }: SiderbarProps) => {
 					href="/"
 					className='mb-12 cursor-pointer flex items-center gap-2'>
 						<Image 
-							src="/icons/logo.svg"
+							src="/icons/logo.png"
 							width={34}
 							height={34}
 							alt="LanceVault Logo"
