@@ -26,7 +26,7 @@ const Home = async ({ searchParams: { id, page } }: SearchParamProps) => {
         <header className='home-header'>
           <HeaderBox 
             type="greeting"
-            title="Welcome to My Website"
+            title="Welcome"
             user={loggedIn?.firstName || "Guest"}
             subtext="We're glad to have you here."
           />
