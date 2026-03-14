@@ -6,7 +6,7 @@ A modern **full-stack fintech banking application** that allows users to securel
 
 ---
 
-![App Homepage](public\icons\HomePage.png)
+![App Homepage](./public/icons/HomePage.png)
 
 ---
 
