@@ -6,6 +6,10 @@ A modern **full-stack fintech banking application** that allows users to securel
 
 ---
 
+![App Homepage](public\icons\HomePage.png)
+
+---
+
 ## Features
 
 * Secure user authentication and session management
